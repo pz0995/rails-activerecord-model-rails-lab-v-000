@@ -4,6 +4,7 @@ class Student < ActiveRecord::Base
 
 
   def to_s
-    @student = [first_name, last_name].to_s * ''
+    # @student = [first_name, last_name].to_s * ''
+    @student.each do |name|
   end
 end
