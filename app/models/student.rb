@@ -1,7 +1,7 @@
 class Student < ActiveRecord::Base
 
   def full_name
-    
+
   end
 
   def to_s
