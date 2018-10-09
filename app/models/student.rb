@@ -2,7 +2,7 @@ class Student < ActiveRecord::Base
   attr_accessor :first_name, :last_name, :students
 
 def initialize
-  @name = named
+  @name = name
 end
 
   def to_s
