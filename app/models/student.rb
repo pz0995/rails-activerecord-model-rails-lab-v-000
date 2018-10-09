@@ -5,6 +5,6 @@ class Student < ActiveRecord::Base
   end
 
   def to_s
-    student
+    @student
   end
 end
