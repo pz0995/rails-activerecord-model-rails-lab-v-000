@@ -1,11 +1,11 @@
 class Student < ActiveRecord::Base
   attr_accessor :first_name, :last_name, :students
 
-def initialize(students)
-  @students = students
+def initialize(student)
+  @student = student
 end
 
   def to_s
-    @students = [first_name, last_name] * ''
+    @student = [first_name, last_name].to_s * ''
   end
 end
