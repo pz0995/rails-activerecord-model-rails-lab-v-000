@@ -6,5 +6,7 @@ class Student < ActiveRecord::Base
   def to_s
     # @student = [first_name, last_name].to_s * ''
     @student.each do |name|
+      return name.to_s
   end
+end
 end
