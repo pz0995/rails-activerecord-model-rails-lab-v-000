@@ -5,7 +5,7 @@ class Student < ActiveRecord::Base
   end
 
   def to_s
-    @student = [first_name, last_name].to_s * ''
+    @student = [first_name, last_name] * ''
     @student
   end
 end
