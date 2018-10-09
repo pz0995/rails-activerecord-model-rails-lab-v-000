@@ -4,7 +4,7 @@ class Student < ActiveRecord::Base
 def initialize
   @name = named
 end
-  
+
   def to_s
     @students = [first_name, last_name] * ''
   end
